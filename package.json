@@ -1,5 +1,5 @@
 {
-  "name": "console-badges",
+  "name": "console-badge",
   "version": "1.0.0",
   "description": "Create simple badges in the browser console",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dennis47528/console-badges.git"
+    "url": "git+https://github.com/dennis47528/console-badge.git"
   },
   "keywords": [
     "console",
@@ -18,9 +18,9 @@
   "author": "Dennis Herzberg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dennis47528/console-badges/issues"
+    "url": "https://github.com/dennis47528/console-badge/issues"
   },
-  "homepage": "https://github.com/dennis47528/console-badges#readme",
+  "homepage": "https://github.com/dennis47528/console-badge#readme",
   "dependencies": {},
   "devDependencies": {
     "serve": "^11.1.0"

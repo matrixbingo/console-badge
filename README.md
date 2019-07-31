@@ -1,30 +1,30 @@
-# 🎨 console-badges
+# 🎨 console-badge
 
 > Create simple badges in the browser console
 
 Tiny and easy-to-use package. No Dependencies.
 
 <p>
-  <a href="https://www.npmjs.com/package/console-badges"><img src="https://img.shields.io/npm/v/console-badges.svg" alt="Version"></a>
-  <a href="https://npmcharts.com/compare/console-badges?minimal=true"><img src="https://img.shields.io/npm/dm/console-badges.svg" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/console-badges"><img src="https://img.shields.io/npm/l/console-badges.svg" alt="License"></a>
+  <a href="https://www.npmjs.com/package/console-badge"><img src="https://img.shields.io/npm/v/console-badge.svg" alt="Version"></a>
+  <a href="https://npmcharts.com/compare/console-badge?minimal=true"><img src="https://img.shields.io/npm/dm/console-badge.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/console-badge"><img src="https://img.shields.io/npm/l/console-badge.svg" alt="License"></a>
 </p>
 
 ## Installation
 
 ```bash
-$ npm install console-badges
+$ npm install console-badge
 # OR
-$ yarn add console-badges
+$ yarn add console-badge
 ```
 
 
 ## Usage
 
 ```js
-import consoleBadges from 'console-badges';
+import consoleBadge from 'console-badge';
 
-consoleBadges({
+consoleBadge({
   leftText: '🚀 Check out our code here:',
   leftTextColor: '#000',
   leftBgColor: '#ddd',
@@ -32,7 +32,7 @@ consoleBadges({
   rightBgColor: '#000'
 });
 
-consoleBadges({
+consoleBadge({
   mode: 'shields.io',
   leftText: 'API Status',
   rightText: 'Offline',
@@ -43,7 +43,7 @@ consoleBadges({
 
 ## API
 
-### consoleBadges(options?)
+### consoleBadge(options?)
 
 #### options
 
