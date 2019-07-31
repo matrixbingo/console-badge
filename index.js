@@ -37,7 +37,7 @@ export default (options) => {
 
       const spacerStyle = ['background-color: transparent'].join(';');
 
-      console.log(`\n %c ${options.leftText} %c ${options.rightText} %c \n`, leftBoxStyle, rightBoxStyle, spacerStyle);
+      console.log(`\n\n %c ${options.leftText} %c ${options.rightText} %c \n\n\n`, leftBoxStyle, rightBoxStyle, spacerStyle);
 
     } else {
       window.console && console.log(`${options.leftText} - ${options.rightText}`);
