@@ -2,13 +2,16 @@
 
 > Create simple badges in the browser console
 
-Tiny and easy-to-use package. No Dependencies.
+Tiny, easy-to-use package. No Dependencies.
 
 <p>
   <a href="https://www.npmjs.com/package/console-badge"><img src="https://img.shields.io/npm/v/console-badge.svg" alt="Version"></a>
   <a href="https://npmcharts.com/compare/console-badge?minimal=true"><img src="https://img.shields.io/npm/dm/console-badge.svg" alt="Downloads"></a>
+  <a href="https://bundlephobia.com/result?p=console-badge"><img src="https://img.shields.io/bundlephobia/min/console-badge" alt="npm bundle size"></a>
   <a href="https://www.npmjs.com/package/console-badge"><img src="https://img.shields.io/npm/l/console-badge.svg" alt="License"></a>
 </p>
+
+![](media/hero.png)
 
 ## Installation
 
@@ -40,6 +43,9 @@ consoleBadge({
 });
 ```
 
+### Output:
+![](media/example-output.png)
+
 
 ## API
 
@@ -47,16 +53,17 @@ consoleBadge({
 
 #### options
 
-Type: `object`
+Type: `Object`
 
 ##### mode
 
 Type: `String`<br>
-Default: `'default'`
+Default: `'default'`<br>
+Values:
+- `'default'`
+- `'shields.io'`
 
-Available modes:
-- `default`
-- `shields.io`
+General style of the badge.
 
 ##### leftText
 
