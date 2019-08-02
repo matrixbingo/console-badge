@@ -1,6 +1,6 @@
 {
   "name": "console-badge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create simple badges in the browser console",
   "main": "index.js",
   "scripts": {
