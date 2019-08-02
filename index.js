@@ -23,7 +23,7 @@ export default (options) => {
         ...(options.mode === 'shields.io' ? ['border-radius: 3px 0 0 3px'] : []),
         ...(options.mode === 'shields.io' ? ['font-family: DejaVu Sans,Verdana,Geneva,sans-serif'] : []),
         `color: ${options.leftTextColor}`,
-        ...(options.mode === 'shields.io' ? ['text-shadow: 0 1px 0 rgba(1, 1, 1, 0.3);'] : [])
+        ...(options.mode === 'shields.io' ? ['text-shadow: 0 1px 0 rgba(1, 1, 1, 0.3)'] : [])
       ].join(';');
 
       const rightBoxStyle = [
@@ -32,7 +32,7 @@ export default (options) => {
         ...(options.mode === 'shields.io' ? ['border-radius: 0 3px 3px 0'] : []),
         ...(options.mode === 'shields.io' ? ['font-family: DejaVu Sans,Verdana,Geneva,sans-serif'] : []),
         `color: ${options.rightTextColor}`,
-        ...(options.mode === 'shields.io' ? ['text-shadow: 0 1px 0 rgba(1, 1, 1, 0.3);'] : [])
+        ...(options.mode === 'shields.io' ? ['text-shadow: 0 1px 0 rgba(1, 1, 1, 0.3)'] : [])
       ].join(';');
 
       const spacerStyle = ['background-color: transparent'].join(';');
