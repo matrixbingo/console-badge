@@ -28,22 +28,24 @@ $ yarn add console-badge
 import consoleBadge from 'console-badge';
 
 consoleBadge({
-  leftText: '🚀 Check out our code here:',
+  mode: 'shields.io',
+  leftText: 'console-badge',
+  rightText: 'hello world 🚀',
+  rightBgColor: '#ffc107',
+  rightTextColor: '#1a1a1a'
+});
+
+consoleBadge({
+  leftText: '😎 Check out our code here:',
   leftTextColor: '#000',
   leftBgColor: '#ddd',
   rightText: 'https://example.com/oss',
   rightBgColor: '#000'
 });
-
-consoleBadge({
-  mode: 'shields.io',
-  leftText: 'API Status',
-  rightText: 'Offline',
-  rightBgColor: '#e05d44'
-});
 ```
 
 ### Output:
+
 ![](media/example-output.png)
 
 
