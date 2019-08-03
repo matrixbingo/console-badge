@@ -3,8 +3,7 @@ var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: {
-    'console-badge': './src/index.js',
-    'console-badge.min': './src/index.js'
+    'console-badge': './src/index.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -13,10 +12,8 @@ module.exports = {
     globalObject: 'typeof self !== \'undefined\' ? self : this'
   },
   optimization: {
-    minimize: true,
-    minimizer: [new UglifyJsPlugin({
-      include: /\.min\.js$/
-    })]
+    // Tell webpack to minimize the bundle using the TerserPlugin.
+    minimize: true
   },
   module: {
     rules: [
