@@ -11,6 +11,10 @@ Tiny, easy-to-use package. No Dependencies.
   <a href="https://www.npmjs.com/package/console-badge"><img src="https://img.shields.io/npm/l/console-badge.svg" alt="License"></a>
 </p>
 
+<p>
+  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Standard Code Style"></a>
+</p>
+
 ![](media/hero.png)
 
 ## Installation
