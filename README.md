@@ -48,9 +48,27 @@ consoleBadge({
 });
 ```
 
+
 ### Output:
 
 ![](media/example-output.png)
+
+
+## CDN
+
+For prototyping or learning purposes, you can use the latest version with:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/console-badge"></script>
+```
+
+For production, we recommend linking to a specific version number and build to avoid unexpected breakage from newer versions:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/console-badge@1/dist/console-badge.min.js"></script>
+```
+
+⚠ NPM is the [recommended installation method](#Installation). It pairs nicely with module bundlers such as [webpack](https://webpack.js.org/).
 
 
 ## API
