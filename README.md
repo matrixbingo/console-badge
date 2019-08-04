@@ -54,7 +54,7 @@ consoleBadge({
 ![](media/example-output.png)
 
 
-## CDN
+## CDN [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/console-badge/badge?style=rounded)](https://www.jsdelivr.com/package/npm/console-badge)
 
 For prototyping or learning purposes, you can use the latest version with:
 
