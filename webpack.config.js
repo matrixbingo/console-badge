@@ -42,8 +42,7 @@ module.exports = {
         ' * ' + pkg.name + ' v' + pkg.version,
         ' * (c) 2019-present ' + pkg.author,
         ' * Released under the ' + pkg.license + ' License.',
-        ' */',
-        ''
+        ' */'
       ].join('\n'),
       raw: true
     })
