@@ -13,7 +13,6 @@ export default (options) => {
   };
 
   const badge = () => {
-
     const agent = navigator.userAgent.toLowerCase();
 
     if (/(chrome|firefox|safari)/.test(agent.toLowerCase())) {
@@ -38,11 +37,10 @@ export default (options) => {
       const spacerStyle = ['background-color: transparent'].join(';');
 
       console.log(`\n\n %c ${options.leftText} %c ${options.rightText} %c \n\n\n`, leftBoxStyle, rightBoxStyle, spacerStyle);
-
     } else {
       window.console && console.log(`${options.leftText} - ${options.rightText}`);
     }
-  }
+  };
 
   return badge();
 };
