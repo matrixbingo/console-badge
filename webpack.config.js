@@ -1,8 +1,13 @@
-var path = require('path');
+const path = require('path');
+const webpack = require('webpack');
+const pkg = require('./package.json');
+
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
   entry: {
-    'console-badge': './src/index.js'
+    'console-badge': './src/index.js',
+    'console-badge.min': './src/index.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -12,7 +17,12 @@ module.exports = {
   },
   optimization: {
     // Tell webpack to minimize the bundle using the TerserPlugin.
-    minimize: true
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        include: /\.min\.js$/
+      })
+    ]
   },
   module: {
     rules: [
@@ -24,5 +34,18 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.BannerPlugin({
+      banner: [
+        '/*!',
+        ' * ' + pkg.name + ' v' + pkg.version,
+        ' * (c) 2019-present ' + pkg.author,
+        ' * Released under the ' + pkg.license + ' License.',
+        ' */',
+        ''
+      ].join('\n'),
+      raw: true
+    })
+  ]
 };
