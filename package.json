@@ -3,6 +3,11 @@
   "version": "1.0.4",
   "description": "Create simple badges in the browser console",
   "main": "dist/console-badge.js",
+  "unpkg": "dist/console-badge.min.js",
+  "jsdelivr": "dist/console-badge.min.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "serve",
     "test": "echo \"No test specified\"",
@@ -15,7 +20,8 @@
   },
   "keywords": [
     "console",
-    "badge"
+    "badge",
+    "browser"
   ],
   "author": "Dennis Herzberg",
   "license": "MIT",
