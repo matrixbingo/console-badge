@@ -12,8 +12,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
-    libraryTarget: 'umd',
-    globalObject: 'typeof self !== \'undefined\' ? self : this'
+    library: 'consoleBadge',
+    libraryTarget: 'umd'
   },
   optimization: {
     // Tell webpack to minimize the bundle using the TerserPlugin.
