@@ -30,9 +30,9 @@ $ yarn add console-badge
 ## Usage
 
 ```js
-import consoleBadge from 'console-badge';
+import * as consoleBadge from 'console-badge';
 
-consoleBadge({
+consoleBadge.log({
   mode: 'shields.io',
   leftText: 'console-badge',
   rightText: 'hello world 🚀',
@@ -40,7 +40,7 @@ consoleBadge({
   rightTextColor: '#1a1a1a'
 });
 
-consoleBadge({
+consoleBadge.log({
   leftText: '😎 Check out our code here:',
   leftTextColor: '#000',
   leftBgColor: '#ddd',
@@ -69,12 +69,19 @@ For production, we recommend linking to a specific version number and build to a
 <script src="https://cdn.jsdelivr.net/npm/console-badge@1/dist/console-badge.min.js"></script>
 ```
 
+```js
+// Global variable
+consoleBadge.log();
+// Property in the window object
+window.consoleBadge.log();
+```
+
 ⚠ NPM is the [recommended installation method](#Installation). It pairs nicely with module bundlers such as [webpack](https://webpack.js.org/).
 
 
 ## API
 
-### consoleBadge(options?)
+### .log(options?)
 
 #### options
 
