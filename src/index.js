@@ -1,6 +1,6 @@
 'use strict';
 
-export default (options) => {
+export function log (options) {
   options = {
     mode: 'default',
     leftText: 'Lorem',
