@@ -4,6 +4,8 @@
 
 Tiny, easy-to-use package. No Dependencies.
 
+![](media/hero.png)
+
 <p>
   <a href="https://www.npmjs.com/package/console-badge"><img src="https://img.shields.io/npm/v/console-badge.svg" alt="Version"></a>
   <a href="https://npmcharts.com/compare/console-badge?minimal=true"><img src="https://img.shields.io/npm/dm/console-badge.svg" alt="Downloads"></a>
@@ -15,7 +17,6 @@ Tiny, easy-to-use package. No Dependencies.
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Standard Code Style"></a>
 </p>
 
-![](media/hero.png)
 
 ## Installation
 
