@@ -10,9 +10,9 @@
   Open developer tools to see the magic!
 
   <script type="module">
-    import consoleBadge from '../src/index.js';
+    import * as consoleBadge from '../src/index.js';
 
-    consoleBadge({
+    consoleBadge.log({
       mode: 'shields.io',
       leftText: 'console-badge',
       rightText: 'hello world 🚀',
@@ -20,7 +20,7 @@
       rightTextColor: '#1a1a1a'
     });
 
-    consoleBadge({
+    consoleBadge.log({
       leftText: '😎 Check out our code here:',
       leftTextColor: '#000',
       leftBgColor: '#ddd',
