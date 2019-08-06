@@ -12,7 +12,8 @@
     "dev": "serve",
     "test": "echo \"No test specified\"",
     "build": "webpack --mode=production",
-    "release": "npm run build && np"
+    "release": "np",
+    "version": "npm run build && git add dist"
   },
   "repository": {
     "type": "git",

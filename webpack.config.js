@@ -40,7 +40,7 @@ module.exports = {
     new webpack.BannerPlugin({
       banner: [
         '/*!',
-        ' * ' + pkg.name,
+        ' * ' + pkg.name + ' v' + pkg.version,
         ' * (c) 2019-present ' + pkg.author,
         ' * Released under the ' + pkg.license + ' License.',
         ' */'
