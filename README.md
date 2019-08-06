@@ -29,6 +29,8 @@ $ yarn add console-badge
 
 ## Usage
 
+[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/static-q1m6n?fontsize=16&module=%2Fsrc%2Findex.js&view=editor)
+
 ```js
 import * as consoleBadge from 'console-badge';
 
