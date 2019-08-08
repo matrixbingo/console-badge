@@ -11,6 +11,8 @@ module.exports = {
     // allow paren-less arrow functions
     'arrow-parens': 0,
     // require semicolons at the end of statements
-    'semi': ['error', 'always']
+    'semi': ['error', 'always'],
+    // disallow the use of console
+    'no-console': 'error'
   }
 };
