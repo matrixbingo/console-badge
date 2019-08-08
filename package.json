@@ -2,16 +2,18 @@
   "name": "console-badge",
   "version": "1.0.7",
   "description": "Create simple badges in the browser console",
-  "main": "dist/console-badge.js",
-  "unpkg": "dist/console-badge.min.js",
-  "jsdelivr": "dist/console-badge.min.js",
+  "main": "dist/console-badge.cjs.js",
+  "module": "dist/console-badge.esm.js",
+  "browser": "dist/console-badge.umd.js",
+  "unpkg": "dist/console-badge.umd.min.js",
+  "jsdelivr": "dist/console-badge.umd.min.js",
   "files": [
     "dist"
   ],
   "scripts": {
     "dev": "serve",
     "test": "echo \"No test specified\"",
-    "build": "webpack --mode=production",
+    "build": "rollup -c",
     "release": "np",
     "version": "npm run build && git add dist"
   },
@@ -39,9 +41,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "np": "^5.0.3",
-    "serve": "^11.1.0",
-    "terser-webpack-plugin": "^1.4.1",
-    "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6"
+    "rollup": "^1.19.4",
+    "rollup-plugin-terser": "^5.1.1",
+    "serve": "^11.1.0"
   }
 }
