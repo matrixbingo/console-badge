@@ -2,7 +2,7 @@
 
 > Create simple badges in the browser console
 
-Tiny, easy-to-use package. No Dependencies.
+Tiny, easy-to-use package. No dependencies.
 
 ![](media/hero.png)
 
@@ -16,6 +16,12 @@ Tiny, easy-to-use package. No Dependencies.
 <p>
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Standard Code Style"></a>
 </p>
+
+
+## Features
+
+- **Tiny:** Less than 1kB (minified and gzipped). No dependencies. [ES5-compliant](http://kangax.github.io/compat-table/es5/) code.
+- **Customizable:** Change the font colors, background colors and texts. **Tip: You can use the popular [shields.io](https://shields.io/) badge style.** 😎
 
 
 ## Installation
@@ -68,7 +74,7 @@ For prototyping or learning purposes, you can use the latest version with:
 For production, we recommend linking to a specific version number and build to avoid unexpected breakage from newer versions:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/console-badge@1/dist/console-badge.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/console-badge@1/dist/console-badge.umd.min.js"></script>
 ```
 
 ```js
