@@ -25,7 +25,8 @@
   "keywords": [
     "console",
     "badge",
-    "browser"
+    "browser",
+    "log"
   ],
   "author": "Dennis Herzberg",
   "license": "MIT",
