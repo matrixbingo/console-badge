@@ -12,8 +12,9 @@
   ],
   "scripts": {
     "dev": "serve",
-    "test": "echo \"No test specified\"",
     "build": "rollup -c",
+    "lint": "eslint .",
+    "test": "npm run lint && npm run build",
     "release": "np",
     "version": "npm run build && git add dist"
   },
