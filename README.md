@@ -1,22 +1,37 @@
-# 🎨 console-badge
+<h1 align="center">🎨 console-badge</h1>
 
-> Create simple badges in the browser console
+<h3 align="center">Create simple badges in the browser console.</h3>
 
-Tiny, easy-to-use package. No dependencies.
+<p align="center">Tiny, easy-to-use package. No dependencies.</p>
+
+<br>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/console-badge">
+    <img src="https://img.shields.io/npm/v/console-badge.svg" alt="Version">
+  </a>
+  <a href="https://npmcharts.com/compare/console-badge?minimal=true">
+    <img src="https://img.shields.io/npm/dm/console-badge.svg" alt="Downloads">
+  </a>
+  <a href="https://bundlephobia.com/result?p=console-badge">
+    <img src="https://img.shields.io/bundlephobia/min/console-badge" alt="npm bundle size">
+  </a>
+  <a href="https://www.npmjs.com/package/console-badge">
+    <img src="https://img.shields.io/npm/l/console-badge.svg" alt="License">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://standardjs.com">
+    <img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Standard Code Style">
+  </a>
+</p>
+
+<br>
 
 ![](media/hero.png)
 
-<p>
-  <a href="https://www.npmjs.com/package/console-badge"><img src="https://img.shields.io/npm/v/console-badge.svg" alt="Version"></a>
-  <a href="https://npmcharts.com/compare/console-badge?minimal=true"><img src="https://img.shields.io/npm/dm/console-badge.svg" alt="Downloads"></a>
-  <a href="https://bundlephobia.com/result?p=console-badge"><img src="https://img.shields.io/bundlephobia/min/console-badge" alt="npm bundle size"></a>
-  <a href="https://www.npmjs.com/package/console-badge"><img src="https://img.shields.io/npm/l/console-badge.svg" alt="License"></a>
-</p>
-
-<p>
-  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Standard Code Style"></a>
-</p>
-
+---
 
 ## Features
 
