@@ -148,6 +148,11 @@ Default: `'#1966D2'`
 The background color of the **right** section.
 
 
+## Show your support
+
+Please ⭐️ this repository if this project helped you!
+
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
